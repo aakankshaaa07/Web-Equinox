@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hercale's Corner</title>
+    <link rel="stylesheet" href="styles/style2.css" />
+
+    <script defer src="scripts/constants.js"></script>
+    <script defer src="scripts/games.js"></script>
+    <script defer src="scripts/templates.js"></script>
+    <script defer src="scripts/functions.js"></script>
+    <script defer src="scripts/script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/1425fdb9d3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="typewriter">
+      <p id="line-1">Welcome to Hercale's Corner!</p>
+      <p id="line-2">Choose your games wisely!</p>
+      <p id="line-3">Transfer of 1000 drachma coins successful!</p>
+    </div>
+    <section class="games">
+      <div class="games__top">
+        <div class="games__balance">
+          Balance: <i class="fab fa-500px"></i><span id="balance">1000</span>
+        </div>
+        <div class="games__search-bar games__search-bar1">
+          <i class="fa fa-search games__search-icon"></i>
+          <input
+            type="text"
+            placeholder="Search"
+            class="games__search-input"
+            id="search-bar"
+          />
+        </div>
+
+        <input
+          class="cart__checkbox"
+          type="checkbox"
+          style="display: none"
+          id="cart-toogle"
+        />
+        <label for="cart-toogle">
+          <div class="games__cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <span id="cart-num">0</span>
+          </div>
+        </label>
+
+        <div class="cart__backdrop"></div>
+
+        <div class="cart">
+          <h1 class="cart__title">
+            <span>Cart</span>
+            <label for="cart-toogle">
+              <i class="fas fa-times"></i>
+            </label>
+          </h1>
+          <div class="cart__balance">
+            Balance: <i class="fab fa-500px"></i
+            ><span id="cart-balance"> 1000</span>
+          </div>
+          <!-- <div class="cart__mid">
+            <div class="cart__balance">Balance: <i class="fab fa-500px"></i><span id="cart-balance"> 300</span></div>
+            <div class="cart__cost">Cost: <i class="fab fa-500px"></i><span> 300</span></div>
+          </div> -->
+
+          <div class="cart__items">
+            <!-- <div class="cart__item">
+              <div class="cart__item-bg"></div>
+              <div class="cart__item-name">Test</div>
+              <div class="cart__item-price">
+                <i class="fab fa-500px"></i> <span> 20</span>
+              </div>
+              <div class="cart__quantitiy">Quantity: <span>2</span></div>
+
+              <div class="card__quantity">
+                <i class="fas fa-plus quan-inc"></i>
+                <span>1</span>
+                <i class="fas fa-minus quan-dec"></i>
+              </div>
+            </div> -->
+          </div>
+          <div id="buy" class="cart__buy"><span>Buy!</span></div>
+        </div>
+
+      </div>
+      <!-- <div class="games__mid">
+        <div class="games__search-bar games__search-bar2">
+          <i class="fa fa-search games__search-icon"></i>
+          <input
+            type="text"
+            placeholder="Search"
+            class="games__search-input"
+            id="search-bar2"
+          />
+        </div> -->
+      </div>
+      <div class="games__cards">
+        <!-- <div class="games__card">
+          <span class="games__border"></span>
+          <span class="games__border"></span>
+          <span class="games__border"></span>
+          <span class="games__border"></span>
+          <div class="games__card-bg"></div>
+          <div class="games__card-bottom">
+            <div class="games__card-name" data-text="NAME">NAME</div>
+            <div class="games__card-btm">
+              <i class="fas fa-user-friends"> <span>3</span></i>
+              <i class="fab fa-500px"> 50</i>
+              <i class="fas fa-cart-plus"></i>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+  </body>
+</html>
