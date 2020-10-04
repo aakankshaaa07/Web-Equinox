@@ -1,0 +1,92 @@
+const games = [
+  {
+    name: "Claim Your Throne",
+    price: 20,
+    numOfPlayers: 3,
+    image: "bg1.jpeg",
+  },
+  {
+    name: "Daedalus Labyrinth",
+    price: 80,
+    numOfPlayers: 1,
+    image: "bg2.jpeg",
+  },
+  {
+    name: "Artillery Down",
+    price: 150,
+    numOfPlayers: 5,
+    image: "bg3.jpeg",
+  },
+  {
+    name: "Number-o-Number",
+    price: 60,
+    numOfPlayers: 4,
+    image: "bg4.jpeg",
+  },
+  {
+    name: "Build your Underworld",
+    price: 15,
+    numOfPlayers: 1,
+    image: "bg5.jpeg",
+  },
+  {
+    name: "Great Quest",
+    price: 90,
+    numOfPlayers: 1,
+    image: "bg6.jpg",
+  },
+  {
+    name: "Hoop-a-Loop",
+    price: 200,
+    numOfPlayers: 2,
+    image: "bg7.jpeg",
+  },
+  {
+    name: "The Great Gamble",
+    price: 180,
+    numOfPlayers: 4,
+    image: "bg8.jpeg",
+  },
+  {
+    name: "Mighty Ares",
+    price: 10,
+    numOfPlayers: 2,
+    image: "bg9.jpeg",
+  },
+  {
+    name: "Trojan War",
+    price: 30,
+    numOfPlayers: 2,
+    image: "bg10.jpeg",
+  },
+  {
+    name: "Erudite",
+    price: 100,
+    numOfPlayers: 6,
+    image: "bg11.jpg",
+  },
+  {
+    name: "Medusa",
+    price: 90,
+    numOfPlayers: 3,
+    image: "bg12.jpeg",
+  },
+  {
+    name: "Hephastus Jr.",
+    price: 45,
+    numOfPlayers: 1,
+    image: "bg13.jpg",
+  },
+  {
+    name: "Hermes and Racing",
+    price: 50,
+    numOfPlayers: 1,
+    image: "bg14.jpg",
+  },
+  {
+    name: "Poseidon's Pool",
+    price: 130,
+    numOfPlayers: 3,
+    image: "bg15.png",
+  },
+];
